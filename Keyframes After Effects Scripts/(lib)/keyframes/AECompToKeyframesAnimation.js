@@ -692,7 +692,7 @@ return;
 var keyPath=objects.map(function(_ref15){var name=_ref15.name;return name;}).reverse().concat(feature);
 var comp=objects[objects.length-1];
 keyPath.unshift(comp&&comp.parentFolder$name);
-console.warn('UNSUPPORTED: %s',keyPath.join(' → '));
+console.warn('UNSUPPORTED: %s',keyPath.join(' -> '));
 }
 
 module.exports=AECompToKeyframesAnimation;
